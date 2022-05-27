@@ -1,2 +1,2 @@
 # atkaitinimo_metodas
-Simulated annealing algorithm
+Simulated annealing algorithm that finds the local minima of Booth function.
