@@ -19,7 +19,7 @@ contour(X,Y,Z);
 hold on;
 
 for i = 1:maxit
-    xi = xgeriausias+rand()-0.5; % generuojamas atsitiktinis naujas x
+    xi = xgeriausias+rand(); % generuojamas atsitiktinis naujas x
     xi = max(min(xi,3.0),-3.0); % uztikrinama, kad jo reiksme yra nustatytose ribose (-3:3)
     deltaE = xi-x; % skaiciuojamas energijos skirtumas
     
